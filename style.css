@@ -166,11 +166,11 @@
   width: fit-content;
 }
 
-.hero-text h2 {
+.hero-text h1 {
   font-size: 48px;
   color: #ff4d6d;
 }
-.hero-text h4{
+.hero-text h2{
   font-size: 36px;
   margin-bottom:10px
 }
@@ -183,7 +183,7 @@
   color: #d1d5db;
   max-width: 520px;
   line-height: 1.6;
-  font-size: 16px;
+  font-size: 22px;
 }
 
 /* FORM */
@@ -229,13 +229,13 @@
 .hero-features {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 12px 48px;
+  gap: 10px 40px;
   padding-top: 16px;
   padding-bottom: 16px;
 }
 
 .hero-features span {
-  font-size: 16px;
+  font-size: 18px;
   color: #c084fc;
 }
 
