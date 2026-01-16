@@ -43,6 +43,9 @@
   display: flex;
   gap: 32px;
 }
+.home-btn{
+  background:red;
+}
 
 .nav-desktop a,
 .nav-mobile a {
@@ -50,15 +53,10 @@
   font-size: 14px;
   color: white;
   transition: 0.3s;
+  padding: 10px 20px;
+  border-radius: 999px;
 }
 
-.nav-desktop a:hover,
-.nav-mobile a:hover {
-  color: #ffffff;
-  background:#7c3aed;
-  padding:2px;
-  border-radius:4px;
-}
 
 /* CTA Button */
 .cta-btn  {
@@ -73,6 +71,7 @@
 }
 .cta-btn a{
   color:white;
+  text-decoration:none;
 }
 
 .cta-btn:hover {
@@ -96,7 +95,9 @@
   gap: 16px;
   padding: 16px 0;
 }
-
+.nav-mobile .home-btn{
+  text-align:center;
+}
 .nav-mobile.open {
   display: flex;
 }
@@ -144,11 +145,13 @@
 
 .hero-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 80px;
+  grid-template-columns: 1fr;
+  gap: 100px;
   align-items: center;
 }
 
+
+/* LEFT CONTENT */
 /* LEFT CONTENT */
 .hero-content {
   display: flex;
@@ -166,11 +169,11 @@
   width: fit-content;
 }
 
-.hero-text h1 {
+.hero-text h2 {
   font-size: 48px;
   color: #ff4d6d;
 }
-.hero-text h2{
+.hero-text h4{
   font-size: 36px;
   margin-bottom:10px
 }
@@ -183,8 +186,9 @@
   color: #d1d5db;
   max-width: 520px;
   line-height: 1.6;
-  font-size: 22px;
+  font-size: 16px;
 }
+
 
 /* FORM */
 /* .hero-form {
@@ -300,6 +304,20 @@
     font-size: 72px;
   }
 }
+@media (max-width: 767px) {
+  .hero-image-wrapper {
+    display: flex;
+    justify-content: center;
+  }
+
+  .image-border {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
+
 .challenges {
   background: #ffffff;
   padding: 64px 16px;
