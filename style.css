@@ -227,14 +227,13 @@
 .hero-text h2 {
   font-size: 48px;
   color: #ff4d6d;
-  padding-bottom:20px
 }
-.hero-text h4{
-  font-size: 36px;
-  margin-bottom:10px
+.hero-text h3{
+  font-size: 42px;
+  padding-bottom:30px
 }
 
-.hero-text h4 span {
+.hero-text h3 span {
   color: #ff4d6d;
 }
 
